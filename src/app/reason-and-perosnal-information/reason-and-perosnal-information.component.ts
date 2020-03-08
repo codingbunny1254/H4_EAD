@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { FormGroup, FormControl } from '@angular/forms';
+import { FormBuilder } from '@angular/forms';
+
 
 @Component({
   selector: 'app-reason-and-perosnal-information',
@@ -7,9 +10,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ReasonAndPerosnalInformationComponent implements OnInit {
 
-  constructor() { }
+  constructor(private fb: FormBuilder) { }
 
   ngOnInit(): void {
+  }
+
+  
+
+  onSubmit()
+  {
+
   }
 
 }
